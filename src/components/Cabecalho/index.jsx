@@ -2,6 +2,8 @@ import logo from './logo.png';
 import search from './search.png'
 import styles from './cabecalho.module.scss'
 
+
+
 const Cabecalho = () => {
     return (
         <header className={styles.cabecalho}>
