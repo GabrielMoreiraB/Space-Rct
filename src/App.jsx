@@ -1,5 +1,5 @@
+import './styles/estilosGlobais.scss'
 import { useState } from 'react'
-import './App.css'
 import PaginaInicial from './paginas/PaginaInicial'
 
 
