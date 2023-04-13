@@ -5,6 +5,8 @@ import Menu from "../../components/Menu";
 import banner from '../../assets/banner.png';
 
 import styles from './PaginaInicial.module.scss';
+import Foorter from "../../components/Footer";
+import Galeria from "../../components/Galeria";
 
 const PaginaInicial = () => {
     return (
@@ -19,7 +21,10 @@ const PaginaInicial = () => {
                     </div>
                 </section>
             </main>
-
+            <div>
+                <Galeria/>
+            </div>
+            <Foorter/>
         </>
     );
 };
