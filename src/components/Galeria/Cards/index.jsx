@@ -1,17 +1,17 @@
 import favorito from './favorito.png';
 import open from './open.png';
 
-const Cards = ({fotos, style}) => {
+const Cards = ({fotos, styles}) => {
     return (
-        <ul className={style.galeria__cards}>
+        <ul className={styles.galeria__cards}>
             {fotos.map(item => {
                 return (
-                    <li key={item.id} className={style.galeria__card}>
+                    <li key={item.id} className={styles.galeria__card}>
                         <img
                             src={item.imagem}
                             alt={item.titulo}
-                            className={style.galeria__imagem} />
-                        <p className={style.galeria__descricao}>{item.titulo}</p>
+                            className={styles.galeria__imagem} />
+                        <p className={styles.galeria__descricao}>{item.titulo}</p>
                         <div>
                             <p>{item.creditos}</p>
                             <span>
